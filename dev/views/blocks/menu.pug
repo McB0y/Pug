@@ -1,7 +1,5 @@
+//-Mucho más mantenible y mucho más legible.
 nav
    ul
-      li Emprendiendo
-      li 11 Factores.
-      li Leyendas.
-      li Ejemplos.
-      li Consejos.
+     each val in ["Emprendiendo", "11 Factores", "Leyendas", "Ejemplos", "Consejos"]
+       li= val
