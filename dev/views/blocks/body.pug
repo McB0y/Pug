@@ -1,0 +1,17 @@
+.container
+   h1(class="titulo item") Entrepreneur
+//-lo que hago es meter dentro de la etiqueta header mi archivo menu.jade
+//Tenemos este bloque header como una modulo reutilizable.
+header
+   include menu.pug
+.col1
+   article
+      h2.subtitulo
+      p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae sunt incidunt corporis! Aut voluptate itaque omnis voluptatem molestiae eum ut distinctio aliquid, quam libero doloribus facere harum excepturi nulla ab.
+      p Qui pariatur eaque, odio officiis ex dolore, minima quidem fuga nesciunt ea aspernatur accusamus facilis similique voluptas reiciendis ipsam blanditiis officia! Ratione, quidem quis aspernatur tempore quas laboriosam doloremque voluptates.
+      section
+         include anatomia.pug
+   section.segunda
+      include opciones.pug
+   section.consejos
+      include consejos.pug
