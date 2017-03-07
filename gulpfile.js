@@ -1,3 +1,4 @@
+//TODO: AGREGAR FUNCIONALIDADES DEL 05/03/17
 const gulp = require('gulp');
 const pug = require('gulp-pug');
 
