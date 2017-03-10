@@ -18,8 +18,4 @@ gulp.task('default', ()=>{
    gulp.watch('./dev/views/**/*.pug', ['pug']);
 })
 
-
-/*
-Reservado Pruebas...
-Bloque de tareas
-*/
+//Prubas pronto a liberarse en ambiente productivo.
