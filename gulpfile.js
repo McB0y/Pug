@@ -17,3 +17,8 @@ gulp.task('pug', ()=>{
 gulp.task('default', ()=>{
    gulp.watch('./dev/views/**/*.pug', ['pug']);
 })
+
+
+/*
+Reservado Pruebas...
+*/
